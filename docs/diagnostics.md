@@ -1,5 +1,4 @@
 # Task 02: Configure Azure Diagnostics to Forward Storage Logs to Log Analytics
-**My Workspace ID:**daff00dd-c7b8-4634-bdac-b2b0539731cc
 
 ## Objective
 
@@ -33,6 +32,7 @@ az monitor log-analytics workspace create `
 - Data Retention: `30 Days`
 
 ## 2. Configure Diagnostic Settings
+My Workspace ID:daff00dd-c7b8-4634-bdac-b2b0539731cc
 
 **Command used:** Creates Diagnostic Settings to connect the Azure Storage Blob Service to the Log Analytics Workspace.
 
