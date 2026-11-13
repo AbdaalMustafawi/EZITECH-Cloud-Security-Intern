@@ -1,5 +1,5 @@
 # Task 02: Configure Azure Diagnostics to Forward Storage Logs to Log Analytics
-My Workspace ID:daff00dd-c7b8-4634-bdac-b2b0539731cc
+**My Workspace ID:**daff00dd-c7b8-4634-bdac-b2b0539731cc
 
 ## Objective
 
