@@ -1,3 +1,4 @@
+#Generates 100 delivery logs
 import csv
 import random
 
