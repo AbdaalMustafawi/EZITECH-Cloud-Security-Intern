@@ -1,6 +1,6 @@
-# EZITECH Cyber Security Internship
+# EZITECH Cloud Security Internship
 
-Welcome to my Cyber Security Internship repository at EZITECH.
+Welcome to my Cloud Security Internship repository at EZITECH.
 
 This repository documents my learning journey, practical tasks, projects, and hands-on experience in cybersecurity and cloud security.
 
@@ -59,7 +59,7 @@ This repository will be updated throughout my internship as I complete new tasks
 
 **Organization:** EZITECH
 
-**Program:** Cyber Security Internship
+**Program:** Cloud Security Internship
 
 **Focus:** Cybersecurity, Cloud Security, and Practical Security Skills
 
