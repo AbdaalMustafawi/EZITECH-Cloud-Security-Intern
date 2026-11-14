@@ -1,1 +1,17 @@
-Keep this folder for project scripts.
+import csv
+import random
+
+# Origins and Destinations
+cities = ["Lahore", "Karachi", "Islamabad", "Gujranwala"]
+# statuses of delivery 
+statuses = ["Delivered", "Pending", "In Transit", "Cancelled"]
+
+
+# Loop for printing 100 random Origins, statuses and Destinations 
+with open("delivery_logs.csv", "w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerow(["Origin ", "Status", "Destination"])
+    
+    for i in range(100):
+        writer.writerow([random.choice(cities), random.choice(statuses), random.choice(cities)])
+
