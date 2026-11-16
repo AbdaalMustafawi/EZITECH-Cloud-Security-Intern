@@ -65,7 +65,7 @@ StorageBlobLogs
 
 ## 4. Evidence and Screenshots
 
-The following screenshots demonstrate the successful configuration and verification:
+The screenshots provided in "create workspace log(1).pdf" and "Task02(screenshots.evedence).pdf" in the docs/ file in this repository demonstrate the successful configuration and verification:
 
 - Log Analytics Workspace creation.
 - Diagnostic Settings configuration.
