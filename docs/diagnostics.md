@@ -24,6 +24,10 @@ az monitor log-analytics workspace create `
   --retention-time 30
 ```
 
+**Screenshot:**
+<img width="1366" height="222" alt="Screenshot 2026-11-16 092948" src="https://github.com/user-attachments/assets/a2820d03-0fa3-4052-b566-4b08de2421a0" />
+
+
 **Configuration:**
 
 - Resource Group: `ezitech-cloud-intern`
@@ -43,6 +47,8 @@ az monitor diagnostic-settings create `
   --workspace "/subscriptions/17b10937-87c4-4b7a-8c99-d36babadbffc/resourceGroups/ezitech-cloud-intern/providers/Microsoft.OperationalInsights/workspaces/aquafresh-logs-workspace" `
   --logs '[{"category":"StorageRead","enabled":true},{"category":"StorageWrite","enabled":true},{"category":"StorageDelete","enabled":true}]'
 ```
+**Screenshot:**
+<img width="1361" height="162" alt="image" src="https://github.com/user-attachments/assets/503593f5-7f87-479b-9ad6-9d1d893d21dd" />
 
 **Enabled Log Categories:**
 
@@ -52,6 +58,9 @@ az monitor diagnostic-settings create `
 | StorageWrite  | Records storage write operations  |
 | StorageDelete | Records storage delete operations |
 
+**Screenshot:**
+<img width="1361" height="162" alt="image" src="https://github.com/user-attachments/assets/503593f5-7f87-479b-9ad6-9d1d893d21dd" />
+
 ## 3. Verify Storage Logs
 
 After configuring Diagnostic Settings, storage events were generated and forwarded to the Log Analytics Workspace.
@@ -60,22 +69,34 @@ After configuring Diagnostic Settings, storage events were generated and forward
 
 ```kusto
 StorageBlobLogs
-| take 10
+| take 100
 ```
+**Screenshot:**
+<img width="1009" height="474" alt="image" src="https://github.com/user-attachments/assets/8c9192c9-66fb-4984-afc8-2cf2277c0302" />
 
 ## 4. Evidence and Screenshots
 
 The screenshots provided in "create workspace log(1).pdf" and "Task02(screenshots.evedence).pdf" in the docs/ file in this repository demonstrate the successful configuration and verification:
 
-- Log Analytics Workspace creation.
+- Log Analytics Workspace creation. https://github.com/user-attachments/assets/625210c0-2130-4a13-8d33-1ac7255365cc
 - Diagnostic Settings configuration.
 - Storage events visible in Log Analytics query results.
+- screenshot of storage events are attached.
 
 ## Expected Outcome
 
 - [x] Log Analytics Workspace created.
+<img width="1366" height="222" alt="Screenshot 2026-11-16 092948" src="https://github.com/user-attachments/assets/a2820d03-0fa3-4052-b566-4b08de2421a0" />
+
 - [x] Azure Storage Account linked through Diagnostic Settings.
+<img width="1361" height="162" alt="image" src="https://github.com/user-attachments/assets/503593f5-7f87-479b-9ad6-9d1d893d21dd" />
+
 - [x] Storage Read, Write, and Delete logging enabled.
+<img width="1100" height="642" alt="image" src="https://github.com/user-attachments/assets/5085700a-06cb-41be-9cdc-ab43f2a1bf3c" />
+
 - [x] Storage events visible in Log Analytics query results.
+<img width="1009" height="474" alt="image" src="https://github.com/user-attachments/assets/8c9192c9-66fb-4984-afc8-2cf2277c0302" />
+
+
 
 **Result:** Azure Storage diagnostic logging is configured to forward storage events to the Log Analytics Workspace for centralized monitoring and analysis.
