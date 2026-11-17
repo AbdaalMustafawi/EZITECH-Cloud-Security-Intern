@@ -61,6 +61,9 @@ scout azure --cli --report-dir docs/audit
 
 After running the ScoutSuite security audit, we identified three important security findings related to aquafresh-logs-workspace in our Azure Storage Account.
 
+<img width="1737" height="1057" alt="image" src="https://github.com/user-attachments/assets/1368710c-8f5b-4a69-9d55-eb3e93eafa6a" />
+
+
 ### Finding 1: Blob Containers Allowing Public Access
 
 **Risk:**
