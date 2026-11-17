@@ -59,7 +59,7 @@ scout azure --cli --report-dir docs/audit
 ## 3. Security Audit Results and Recommended Fixes
 **Note:**Detail security audit is commited in docs/audit/ 
 
-After running the ScoutSuite security audit, we identified three important security findings related to our Azure Storage Account.
+After running the ScoutSuite security audit, we identified three important security findings related to aquafresh-logs-workspace in our Azure Storage Account.
 
 ### Finding 1: Blob Containers Allowing Public Access
 
