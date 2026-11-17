@@ -57,6 +57,7 @@ scout azure --cli --report-dir docs/audit
 ---
 
 ## 3. Security Audit Results and Recommended Fixes
+**Note:**Detail security audit is commited in docs/audit/ 
 
 After running the ScoutSuite security audit, we identified three important security findings related to our Azure Storage Account.
 
@@ -82,6 +83,10 @@ Disable anonymous blob access to prevent public access to blob containers.
 
 Disabling anonymous blob access helps prevent unauthorized users from accessing publicly exposed blob data.
 
+**Screenshot:**
+<img width="613" height="400" alt="image" src="https://github.com/user-attachments/assets/850bb531-9cd1-417f-bca3-74e42bc15a17" />
+
+
 ### Finding 2: Secure Transfer (HTTPS) Is Not Enforced
 
 **Risk:**
@@ -103,6 +108,9 @@ Enable **Secure Transfer Required** to enforce secure HTTPS connections.
 **Security Improvement:**
 
 Enforcing HTTPS protects data in transit by using encrypted communication between clients and the storage account.
+
+**Screenshot:**
+<img width="613" height="400" alt="image" src="https://github.com/user-attachments/assets/850bb531-9cd1-417f-bca3-74e42bc15a17" />
 
 ### Finding 3: Storage Account Access Key Is Not Rotated
 
@@ -129,6 +137,8 @@ Regenerate the storage account access key periodically and update applications t
 Regular key rotation reduces the risk of continued unauthorized access through compromised or outdated access keys.
 
 ---
+**Screenshot:**
+<img width="1003" height="546" alt="image" src="https://github.com/user-attachments/assets/5e09a349-962d-46f6-9c2f-4465deb098e1" />
 
 ## 4. Final Security Improvements
 
