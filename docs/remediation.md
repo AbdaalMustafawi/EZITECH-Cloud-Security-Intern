@@ -70,6 +70,12 @@ az storage account update `
 This provides an additional security layer by preventing containers within the account from allowing anonymous public access.
 
 ---
+**Screenshots**
+<img width="1028" height="309" alt="image" src="https://github.com/user-attachments/assets/8a292f09-a1a7-40ad-a835-a058be0c6307" />
+
+
+
+
 
 ## 3. Verify Microsoft-Managed Encryption Keys
 
@@ -98,6 +104,9 @@ We checked the returned configuration to verify that encryption was enabled and 
 No additional encryption configuration was required because Microsoft-managed encryption was already enabled.
 
 ---
+**Screenshots**
+
+<img width="561" height="395" alt="image" src="https://github.com/user-attachments/assets/f08ac3a3-ca97-4e94-8d0e-dde873669995" />
 
 ## 4. Create a Test User in Microsoft Entra ID
 
@@ -117,6 +126,10 @@ We followed these steps:
 After creating the user, we obtained its Object ID, which was required for the role assignment.
 
 ---
+**Screenshots**
+
+<img width="641" height="343" alt="image" src="https://github.com/user-attachments/assets/6bfcc7de-948f-4b21-bd6a-854b9b5ba8af" />
+
 
 ## 5. Create a Custom Read-Only Role
 
@@ -223,6 +236,10 @@ The scope defines the boundary within which a user receives permissions.
 In our case, we used the resource group scope. Therefore, the custom role assignment applies to resources within that resource group.
 
 ---
+**Screenshots**
+
+<img width="986" height="345" alt="image" src="https://github.com/user-attachments/assets/ed80095f-eabf-4e9a-9c9e-23b056d93e16" />
+
 
 ## 7. Run ScoutSuite Security Audit Again
 
@@ -267,6 +284,14 @@ After completing the second ScoutSuite scan, we reviewed the new security report
 The second scan showed no findings classified as **Critical (red)**.
 
 This indicated that there were no Critical findings displayed in the new audit results.
+
+**Screenshots**
+
+<img width="1177" height="233" alt="image" src="https://github.com/user-attachments/assets/f2354be3-2d47-415c-a8fe-02137cc0aabd" />
+
+
+<img width="1234" height="240" alt="image" src="https://github.com/user-attachments/assets/440f2977-0636-4dfe-8c72-66d6881ed597" />
+
 
 ### Important Note About the Previous Audit Report
 
