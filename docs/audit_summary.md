@@ -19,8 +19,19 @@ First, create a Python virtual environment to install and manage the required de
 ```powershell
 python -m venv .venv
 ```
+### Step 3: Install ScoutSuite
+```
+pip install scoutsuite
+```
+This installs ScoutSuite and its required Python dependencies.
 
-### Step 2: Activate the Virtual Environment
+### Step 4: Verify the Installation
+```
+scout --help
+```
+This command displays ScoutSuite's available commands and options, confirming that the installation is accessible.
+
+### Step 5: Activate the Virtual Environment
 
 Activate the virtual environment using the following command:
 
@@ -28,7 +39,7 @@ Activate the virtual environment using the following command:
 .\.venv\Scripts\Activate.ps1
 ```
 
-### Step 3: Log in to Azure
+### Step 6: Log in to Azure
 
 Log in to your Azure account using the Azure CLI:
 
@@ -36,7 +47,7 @@ Log in to your Azure account using the Azure CLI:
 az login --use-device-code
 ```
 
-### Step 4: Check the Selected Subscription
+### Step 7: Check the Selected Subscription
 
 Verify that the correct Azure subscription is selected:
 
@@ -44,7 +55,7 @@ Verify that the correct Azure subscription is selected:
 az account show
 ```
 
-### Step 5: Run the ScoutSuite Security Scan
+### Step 8: Run the ScoutSuite Security Scan
 
 Run the following command from inside the activated virtual environment and your project repository directory:
 
