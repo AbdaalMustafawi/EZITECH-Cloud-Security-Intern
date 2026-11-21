@@ -1,5 +1,5 @@
 # Azure Storage Security Audit – Remediation and Verification
-**Formatted and Structured by ChatGPT**
+**Formatted and Structured by ChatGPT** 
 ## 1. Introduction
 
 In this phase of the project, we remediated the security findings identified during our previous Azure Storage Account security audit using ScoutSuite.
