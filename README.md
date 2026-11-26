@@ -55,6 +55,13 @@ I believe in learning through practical implementation, problem-solving, researc
 
 This repository will be updated throughout my internship as I complete new tasks and develop additional skills.
 
+## Alert Rule ID:
+ 
+ /subscriptions/17b10937-87c4-4b7a-8c99-d36babadbffc/resourceGroups/ezitech-cloud-intern/providers/microsoft.insights/scheduledqueryrules/PublicBlobAccessAttempt
+
+### Link to RUNBOOK.md
+https://github.com/AbdaalMustafawi/EZITECH-Cloud-Security-Intern/blob/main/docs/RUNBOOK.md
+
 ## Internship Information
 
 **Organization:** EZITECH
@@ -66,5 +73,6 @@ This repository will be updated throughout my internship as I complete new tasks
 **Repository Purpose:** Learning, Practical Projects, and Portfolio Development
 
 ---
+
 
 *Learning • Practising • Building • Securing*
